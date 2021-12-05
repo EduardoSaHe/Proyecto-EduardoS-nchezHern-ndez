@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina web Eduardo Sanchez Hernandez</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <header class="header" id="inicio">
+        <img class="hamburguer" src="img/hamburguesa.svg" alt="">
+        <nav class="menu-navegacion">
+                <a href="#inicio">Inicio</a>
+                <a href="#servicio">Tabla sobre ciclismo</a>
+                <a href="#galeria">Portafolio img</a>
+                <a href="#expertos">Cuestionario</a>
+                <a href="#footer">Contacto y redes</a>
+                <a href="https://drive.google.com/drive/folders/1Mq9qwhah6qMoJdtu_qIefYux0fUtHFg_?usp=sharing">Practicas en clase</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">Tipos de Ciclismo</h1>
+            <p class="copy">¨Nada se compara con el simple placer de andar en bicicleta¨</p>
+        </div>
+        
+    </header>
+    <main>
+        <section class="services contenedor" id="servicio">
+            <h2 class="subtitulo">Tabla de tipos de Ciclismo</h2>
+            <div class="contenedor-servicio">
+                <ul>
+                    <font face="#" color="silver">
+                          <table border="2">
+                              <tr>
+                                  <TH bgcolor="black">Ruta </TH>  
+                                <TH><IMG SRC="http://c.files.bbci.co.uk/2BFC/production/_90706211_f66c9f47-09c9-42a2-a219-0b093f30d968.jpg" WIDTH="800" HEIGHT="175"></TH>
+                                <TH><IMG SRC="https://64.media.tumblr.com/1b954059f87d10ddb2874c79b88cfdac/tumblr_n6yvmrEoO91tpahv4o1_400.gifv" WIDTH="800" HEIGHT="175"></TH>
+                                <TH><iframe width="300" height="175" src="https://www.youtube.com/embed/r4yE8BoogCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></TH>
+                              </tr>   
+                              <tr>
+                                  <TH bgcolor="blue">MTB </TH>  
+                                  <TH><IMG SRC="https://hubsports.mx/wp-content/uploads/2020/02/ciclismo-montana-equipo.jpg" WIDTH="300" HEIGHT="175"></TH>
+                                  <TH><IMG SRC="https://i.pinimg.com/originals/78/64/03/7864036ba1030ca79821099e90fe5f8f.gif" WIDTH="300" HEIGHT="175"></TH>
+                                  <TH><audio class="Audio-1" src="Tonight David Guetta Remix.mp3" controls>
+                                      </audio></TH>         
+                                </tr> 
+                                <tr>
+                                 <TH bgcolor="black">Triatlón</TH>  
+                               <TH><IMG SRC="https://cdn.sportadictos.com/files/2014/04/Triatleta.jpg?w=1200&auto=format,compress" WIDTH="300" HEIGHT="175"></TH>
+                               <TH><iframe width="300" height="175" src="https://www.youtube.com/embed/OSFf0EfiZ2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></TH>
+                               <TH><audio class="Audio-2" src="Tiësto  Karol G  Dont Be Shy.mp3" controls>
+                             </audio></TH>         
+                             </tr>     
+                            </table>
+                          </ul>
+            </div>
+        </section>
+        <section class="gallery" id="galeria">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galeria</h2>
+                <div class="contenedor-galeria">
+                    <img src="img/uno.jpg" class="img-galeria" alt="Hola">
+                    <img src="img/dos.jpg" class="img-galeria" alt="">
+                    <img src="img/tres.jpg" class="img-galeria" alt="">
+                    <img src="img/cuatro.jpg" class="img-galeria" alt="">
+                    <img src="img/cinco.jpg" class="img-galeria" alt="">
+                    <img src="img/seis.jpg" class="img-galeria" alt="">
+                </div>
+            </div>
+        </section>
+        <div class="imagen-light">
+            <img src="img/close.svg" alt="" class="close">
+            <img src="" alt="" class="agregar-imagen">
+        </div>
+        <section class="contenedor" id="expertos">
+            <h2 class="subtitulo">Cuestionario</h2>
+            <Form> 
+                <label for="nb">Ingrese su nombre</label>     
+                <input type="text" name="n" id="nb" placeholder="Escribe tu nombre completo" size="50">
+                <br><br>
+                <label for="pass">Ingrese su Direacción</label>  
+                <input type="password" name="" id="" size="75">
+                 <br><br>
+                <label for="e">Ingresa su fecha de nacimiento</label>  
+                <input type="text" name="" id="e" placeholder="Ingresa fecha de nacimiento" size="25">
+                <br><br>
+                <label for="e">Número teléfonico</label>  
+                <input type="text" name="" id="e" placeholder="" size="25">
+                <br><br>
+                <label for="">Género</label><br>
+                <input type="radio" name="Sexo" id="" value="">Hombre <br>
+                <input type="radio" name="Sexo" id="" value="" checked  >Mujer <br>
+                <input type="radio" name="Sexo" id="" value="">Indefinido <br>
+                <br><br>
+                <label for="e">E-mail</label>  
+                <input type="text" name="" id="e" placeholder="" size="40">
+                <br><br>
+                <label for="e">Clave</label>  
+                <input type="text" name="" id="e" placeholder="" size="25">
+                <br><br>
+                <label for="e">Qué tipo de ciclismo prefieres</label> <br> 
+                <input type="checkbox" name="" id="">Ruta<br>
+                <input type="checkbox" name="" id="">Triatlón<br>
+                <input type="checkbox" name="" id="">MTB<br>
+                <br><br>
+            
+               <label for="">País</label>
+               <select name="" id="">
+               <option value="M">México</option>
+               <option value="Ar">Argentina</option>
+               <option value="Br">Brasil</option>
+               <option value="E">E.U.</option>
+               <option value="C">Chile</option>
+               </select>
+               <br><br>
+               <input type="submit" value="Enviar Datos"
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="contenedor footer-content">
+                <div class="contact-us">
+                    <h2 class="brand">Eduardo Sánchez Hernandez</h2>
+                    <p>Computacion II</p>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/" class="social-media-icon">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="https://twitter.com/?lang=es" class="social-media-icon">
+                        <i class='bx bxl-twitter' ></i>
+                    </a>
+                    <a href="https://www.instagram.com/?hl=es-la" class="social-media-icon">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+</body>
+</html>
